@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK Tutoring</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #3B8C9C; color: white; padding: 1rem; text-align: center; }
+        header h1 { margin: 0; }
+        nav { text-align: center; margin-top: 1rem; }
+        nav a { color: #fff; text-decoration: none; margin: 0 15px; font-size: 1.1rem; }
+        .container { padding: 20px; }
+        .cta { background-color: #4CAF50; color: white; padding: 1rem; text-align: center; }
+        .cta a { color: white; text-decoration: none; font-weight: bold; }
+        .services-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .services-table, .services-table th, .services-table td { border: 1px solid #ddd; }
+        .services-table th, .services-table td { padding: 10px; text-align: left; }
+        .footer { background-color: #3B8C9C; color: white; text-align: center; padding: 1rem; margin-top: 20px; }
+        .footer a { color: white; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AK Tutoring</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div id="home" class="container">
+    <h2>Expert Math & SAT Tutoring to Help Students Succeed</h2>
+    <p>Personalized instruction for middle school, high school, and early college students.</p>
+    <div class="cta">
+        <a href="#contact">Book a Session</a>
+    </div>
+</div>
+
+<div id="about" class="container">
+    <h2>About AK Tutoring</h2>
+    <p>AK Tutoring was founded with one goal: to make math more approachable and achievable for every student. With years of experience tutoring middle school through college-level math, we understand the challenges students face—and how to overcome them.</p>
+    <p>Whether you're preparing for a major test like the SAT or just trying to get through a tough class, our one-on-one sessions are tailored to your learning style, pace, and goals.</p>
+    <h3>Meet the Tutor</h3>
+    <p>Hi, my name is <strong>Aryaman Kulkarni</strong>. I have a passion for math and making it more accessible for young people trying to learn. I've worked with students of varying grade levels to help build confidence in their math skills and hope to do the same for you!</p>
+</div>
+
+<div id="services" class="container">
+    <h2>Services & Pricing</h2>
+    <h3>Why These Prices?</h3>
+    <p>At AK Tutoring, you're not just paying for an hour of help—you're investing in years of experience, personalized instruction, and proven results.
+    With over five years of tutoring experience and a strong background in math, I tailor each session to fit the unique needs of every student.</p>
+    <p>My goal is to make high-quality tutoring accessible, while reflecting the value of the time, preparation, and care that goes into every lesson.
+    Whether you're brushing up on algebra or gearing up for the SAT, you’ll get focused, one-on-one support designed to build skills and confidence.</p>
+    <table class="services-table">
+        <tr><th>Subject</th><th>Grade Level</th><th>Price (per hour)</th></tr>
+        <tr><td>Pre-Algebra</td><td>Middle School</td><td>$40</td></tr>
+        <tr><td>Algebra 1</td><td>Middle/High School</td><td>$40</td></tr>
+        <tr><td>Algebra 2</td><td>High School</td><td>$45</td></tr>
+        <tr><td>Geometry</td><td>High School</td><td>$45</td></tr>
+        <tr><td>Precalculus</td><td>High School</td><td>$50</td></tr>
+        <tr><td>Calculus 1</td><td>College Freshman / AP Calc</td><td>$50</td></tr>
+        <tr><td>SAT Math Prep</td><td>High School</td><td>$55</td></tr>
+    </table>
+    <p>All sessions are one-on-one and fully personalized. Online and in-person options may be available depending on location.</p>
+    <div class="cta">
+        <a href="#contact">Book a Session</a>
+    </div>
+</div>
+
+<div id="contact" class="container">
+    <h2>Contact</h2>
+    <p>If you have any questions or would like to schedule a session, please fill out the form below. We will respond within 24 hours.</p>
+    <form action="mailto:aryamankulkarni1109@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2025 AK Tutoring</p>
+</footer>
+
+</body>
+</html>
